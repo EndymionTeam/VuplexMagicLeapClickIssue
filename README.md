@@ -1,5 +1,5 @@
 # Issue
-On Magic Leap 2 device, `click event` are not working properly on Webviews. Most of the time, trying hovering/clicking using ML Controller doesn't produce any effect on webpage (instead the visible raycast from the controller change color from red to white when colliding with the webview). 
+On Magic Leap 2 device, `controller interactions` (such as hovering, clicking) are not working properly on Webviews. Most of the time, trying hovering/clicking using ML Controller doesn't produce any effect on webpage (instead the visible raycast from the controller change color from red to white when colliding with the webview). 
 Rarely, at application startup, it starts working for a few interactions (hovering, clicking, dragging), but suddenly stop. Sometimes the application even crash.
 
 Here an extract of stackatrace that seems relevant:
