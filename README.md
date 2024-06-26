@@ -25,6 +25,7 @@ Fatal chromium [FATAL:jni_android.cc(290)] Please include Java exception stack i
 ```
 
 > Full stacktrace of the error is available [here](./stacktrace.md). This include all logging since the App has been launched.
+Furthermore include logging for Vuplex pointer eventer (OnPointerUp, OnPointerDown, OnPointerEnter, OnPointerExit) that is possile to reach looking for `"Vuplex: "` string.
 
 # Environment
 
